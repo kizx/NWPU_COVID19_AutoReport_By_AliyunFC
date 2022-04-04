@@ -67,17 +67,17 @@
     "name": "昵称，可任意填",
     "username": "学号",
     "password": "翱翔门户密码",
-    "serverpush": True,
+    "serverpush": true,
     "api": "server酱的api",
     "phonenumber": "手机号，目前没有用",
-    "emailpush": True,
+    "emailpush": true,
     "email": "推送消息邮箱",
-    "wecompush": True,
-    "userid": "企业微信的用户id",
+    "wecompush": true,
+    "userid": "企业微信的用户id"
 }
 ```
 
--   如果不需要某项推送，则将相应配置改为`False`即可。
+-   如果不需要某项推送，则将相应配置改为`false`即可。
 -   可以重复添加多个触发器并配置不同触发参数。
 -   如果需要关闭云端的自动填报，在该页面禁用创建的触发器即可。
     ![README-2022-01-13-21-13-37](https://oss.pm-z.tech/img/upload/README-2022-01-13-21-13-37.png)
