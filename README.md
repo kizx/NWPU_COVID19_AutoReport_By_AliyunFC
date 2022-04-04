@@ -1,0 +1,1 @@
+# NWPU_COVID19_AutoReport_By_AliyunFCAliyun
