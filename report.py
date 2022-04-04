@@ -65,15 +65,7 @@ def login(username, password, session):
 
     global RealCollege, RealName, PhoneNumber
 
-    # r2 = r_log_on_yqtb2.text
-    # soup = BeautifulSoup(r2, "html.parser")
-    # for k in soup.find("div", string=re.compile("姓名")):
-    #     RealName = k.replace("姓名：", "")
-    # for l in soup.find("div", string=re.compile("学院")):
-    #     RealCollege = l.replace("学院：", "")
-
     # r3 操作
-    # 在「基本信息」页面 / 此页面也可获得上述 k,l 信息，之前未发现
     r3 = session.post(url_for_user_info, data=data2, headers=header3).text
     soup2 = BeautifulSoup(r3, "html.parser")
 
